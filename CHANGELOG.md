@@ -20,14 +20,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.1.0]: https://github.com/brisberg/<package-name>/releases/tag/v0.1.0
 
 ---
+<!-- typescript-toolchain specific CHANGELOG below -->
 
-# Changelog (TypeScript Pkg)
-All notable changes to TypeScript Pkg will be documented in this file. (Delete this section of the log from client packages)
+# Changelog (TypeScript Toolchain)
+All notable changes to TypeScript Toolchain will be documented in this file. (Delete this section of the log from client packages)
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+### Changed
+- Moved repository from @brisberg/typescript-pkg to @brisberg/typescript-toolchain
 
 ## [2.0.2] - 2020-06-23
 
@@ -58,8 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Keep-a-Changelog](https://keepachangelog.com/en/1.0.0/) - Guide for maintaining a useful, readable Changelog.
 
 
-[Unreleased]: https://github.com/brisberg/typescript-pkg/compare/v2.0.2...HEAD
-[2.0.2]: https://github.com/brisberg/typescript-pkg/releases/tag/v2.0.1...v2.0.2
-[2.0.1]: https://github.com/brisberg/typescript-pkg/releases/tag/v1.0.1...v2.0.1
-[1.0.1]: https://github.com/brisberg/typescript-pkg/releases/tag/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/brisberg/typescript-pkg/releases/tag/v1.0.0
+[Unreleased]: https://github.com/brisberg/typescript-toolchain/compare/v2.0.2...HEAD
+[2.0.2]: https://github.com/brisberg/typescript-toolchain/releases/tag/v2.0.1...v2.0.2
+[2.0.1]: https://github.com/brisberg/typescript-toolchain/releases/tag/v1.0.1...v2.0.1
+[1.0.1]: https://github.com/brisberg/typescript-toolchain/releases/tag/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/brisberg/typescript-toolchain/releases/tag/v1.0.0

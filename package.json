@@ -1,5 +1,5 @@
 {
-  "name": "@brisberg/typescript-pkg",
+  "name": "@brisberg/typescript-toolchain",
   "version": "2.0.2",
   "description": "<Description of TypeScript package>",
   "main": "lib/index.js",
@@ -9,11 +9,11 @@
   ],
   "author": "brisberg <brandon.risberg@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/brisberg/typescript-pkg.git",
+  "repository": "https://github.com/brisberg/typescript-toolchain.git",
   "bugs": {
-    "url": "https://github.com/brisberg/typescript-pkg/issues"
+    "url": "https://github.com/brisberg/typescript-toolchain/issues"
   },
-  "homepage": "https://github.com/brisberg/typescript-pkg#readme",
+  "homepage": "https://github.com/brisberg/typescript-toolchain#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

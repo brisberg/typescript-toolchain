@@ -1,6 +1,6 @@
 # \<package-name>
 
-Describe this package. Delete the TypeScript Pkg README below.
+Describe this package. Delete the TypeScript Toolchain README below.
 
 ## Actions
 
@@ -11,14 +11,14 @@ Describe this package. Delete the TypeScript Pkg README below.
 
 ## Toolchain
 
-Uses [@brisberg/typescript-pkg](https://github.com/brisberg/typescript-pkg) as a template for Toolchain configuration.
+Uses [@brisberg/typescript-toolchain](https://github.com/brisberg/typescript-toolchain) as a template for Toolchain configuration.
 
 See that repo for a list of tools, documentation, and upgrade steps.
 
 ---
-<!-- typescript-pkg specific README below -->
+<!-- typescript-toolchain specific README below -->
 
-# TypeScript Pkg (Template)
+# TypeScript Toolchain (Template)
 
 Standard project configuration template for @brisberg TypeScript packages.
 
@@ -29,7 +29,7 @@ This is an opinionated toolchain configuration for TypeScript packages published
 
 Add as a remote of your repository:
 ```bash
-git remote add toolchain https://github.com/brisberg/typescript-pkg.git
+git remote add toolchain https://github.com/brisberg/typescript-toolchain.git
 ```
 
 Merge changes from toolchain template into your repository. Be sure to manually keep any project specific overrides.

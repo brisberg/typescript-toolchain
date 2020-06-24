@@ -1,1 +1,1 @@
-export const name = 'typescript-pkg';
+export const name = 'typescript-toolchain';
