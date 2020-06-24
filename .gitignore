@@ -1,5 +1,9 @@
-# NPM Modules
+# NPM / Yarn Modules
 /node_modules
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
 
 # Built files
 /lib

@@ -23,7 +23,7 @@ jobs:
       # https://github.com/actions/cache/blob/master/examples.md#node---yarn
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+      run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
     - name: actions/cache@v2 (.yarn)
       uses: actions/cache@v2
@@ -36,7 +36,9 @@ jobs:
 
       # Run all CI actions
     - name: yarn install
-      run: yarn install --frozen-lockfile
+      run: yarn install --immutable
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GH_PKG_READ_TOKEN }}
     - name: yarn run test
       run: yarn run test
     - name: yarn run lint
