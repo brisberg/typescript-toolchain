@@ -19,7 +19,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "run": "node lib/index.js",
     "test": "jest",
     "lint": "eslint \"src/**/*.ts\""
   },
