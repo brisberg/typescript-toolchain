@@ -22,6 +22,9 @@
     "test": "jest",
     "lint": "eslint \"src/**/*.ts\""
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.3",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
