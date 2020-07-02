@@ -15,6 +15,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": false,
     "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
     "noImplicitReturns": true
   },
   "include": [

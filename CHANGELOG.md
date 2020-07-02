@@ -30,13 +30,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Using `importHelpers` and `tslib` to emit smaller bundles from Typescript ([#1](https://github.com/brisberg/typescript-toolchain/pull/1))
+
 ### Changed
 - Moved repository from @brisberg/typescript-pkg to @brisberg/typescript-toolchain
+
 
 ## [2.0.2] - 2020-06-23
 
 ### Changed
 - Correctly exporting typings .d.ts files for package consumers
+
 
 ## [2.0.1] - 2020-06-23
 
@@ -44,10 +49,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ESLint will no longer lint built files
 - Packages will be pushed to registry.npmjs.org instead of GPR.
 
+
 ## [1.0.1] - 2020-06-23
 
 ### Changed
 - Upgrade Jest to latest (v26)
+
 
 ## [1.0.0] - 2020-06-23
 ### Added
