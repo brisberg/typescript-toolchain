@@ -20,6 +20,8 @@ See that repo for a list of tools, documentation, and upgrade steps.
 
 # TypeScript Toolchain (Template)
 
+[**Deprecated**] (2020-09-24) in favor of a [Cruft](https://github.com/cruft/cruft) power solution located at [@brisberg/typescript-pkg-cruft](https://github.com/brisberg/typescript-pkg-cruft)
+
 Standard project configuration template for @brisberg TypeScript packages.
 
 This is an opinionated toolchain configuration for TypeScript packages published to NPM Registry.
